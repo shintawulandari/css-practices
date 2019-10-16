@@ -1,20 +1,90 @@
-ul {
-  list-style:none;
-			
+*{
+	margin: 0;
+	padding: 0;
 }
-li {
-  display:inline;
-  margin: 10px;
-  align: right;
+.google-header
+{
+	width: 100%;
+	max-height: 500px;
+	float: right;
+	font-family: sans-serif;
 }
+.google-header img
+{
+	max-width: 100%;
+	border-radius: 50%;
+}
+.gmail-img
+{
+	border-radius: 50%;
+	width: 30px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 17px;
+	cursor: pointer;
+}
+.header-icons .fa-th
+{
+	font-size: 20px;
+	margin-top: 22px;
+	color: gray;
+	float: right;
+	margin-right: 25px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.header-icons .fa-th:hover
+{
+	color: #000;
+}
+.header-icons a
+{
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+}
+.header-icons a:hover
+{
+	color: gray;
+}
+.google-search
+{
+	font-family: sans-serif;
+	padding: 20px;
+}
+.google-image img
+{
+	margin: 100px auto 10px;
+	width: 272px;
+	cursor: pointer;
+}
+.input-group
+{
+	background: white;
+  border-radius: 22px;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+  box-sizing: border-box;
+  cursor: text;
+  font-size: 16px;
+  height: 44px;
+  margin: 0 auto;
+  max-width: 584px;
+  opacity: 1;
+  position: relative;
+  transition: none;
 
-.content {
-  width:400px;
-	height:200px;
-	padding:20px;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-top: -120px;
-	margin-left: -220px;
+.form-control
+{
+	bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  padding-inline-start: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
