@@ -133,8 +133,6 @@
 
 #fakebox-cursor {
   background: #333;
-  /* Total 16px height: (46px fakebox height - 2px border) - 14px top - 14px
-   * bottom */
   bottom: 14px;
   left: 48px;
   position: absolute;
@@ -165,4 +163,47 @@ button {
 	border: 0;
 	margin: 0;
 	padding: 0;
+}
+.bookmarks
+{
+	width: 400px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	display: block;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+}
+.col-md-4
+{
+	width: 120px!important;
+	padding: none!important;
+}
+.site
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 5px;
+}
+.site:hover
+{
+	background-color: #f5f5f5;
+	cursor: pointer;
+}
+.site p{
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+.site a
+{
+	font-size: 25px;
+	width: 100px;
+	height: 100px;
+	margin-left: 35px;
+	margin-top: 20px;
+	border-radius: 100%;
+	background-color: #d3d3d3;
+	text-align: center;
+	padding-top: 12px;
 }
