@@ -165,48 +165,82 @@ button {
 	margin: 0;
 	padding: 0;
 }
-.bookmarks
-{
-	width: 400px;
-	margin-top: 30px;
-	font-family: sans-serif;
-	display: block;
-	left: 50%;
-	transform: translateX(-50%);
-	position: absolute;
+
+
+#most-visited {
+  margin-top: 22px;
+  text-align: -webkit-center;
+  user-select: none;
 }
-.col-md-4
-{
-	width: 120px!important;
-	padding: none!important;
+
+#mv-single {
+  border: none;
+  display: block;
+  height: 266px;
+  width: 100%;
 }
-.site
-{
-	width: 120px;
-	height: 120px;
-	border-radius: 5px;
+
+.grid-tile-container {
+  position: absolute;
+  transition: transform 300ms ease-in-out;
 }
-.site:hover
-{
-	background-color: #f5f5f5;
-	cursor: pointer;
+body.grid-layout #mv-tiles, body.grid-layout .mv-tiles-old {
+  display: block;
+  flex-wrap: unset;
+  justify-content: unset;
+  max-width: unset;
+  position: relative;
+  text-align: unset;
 }
-.site p{
-	margin-top: 10px;
-	font-size: 12px;
-	text-align: center;
+a, a:active, a:hover, a:visited {
+  text-decoration: none;
 }
-.site a
-{
-	font-size: 25px;
-	width: 100px;
-	height: 100px;
-	margin-left: 35px;
-	margin-top: 20px;
-	border-radius: 100%;
-	background-color: #d3d3d3;
-	text-align: center;
-	padding-top: 12px;
+.md-tile {
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: rgb(60, 64, 67);
+  cursor: pointer;
+  height: 112px;
+  margin-bottom: 16px;
+  opacity: 1;
+  padding-top: 16px;
+  position: relative;
+  transition-property: background, background-color, border-color, box-shadow, opacity, filter;
+  width: 112px;
+}
+.md-icon {
+  align-items: center;
+  background-color: rgba(241, 243, 244);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  width: 48px;
+  height: 48px;
+}
+.md-tile-inner {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+}
+.md-title {
+  font-size: 12px;
+  font-weight: 400;
+  max-height: 28px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 88px;
+}
+.md-add-icon {
+  background-image: url(chrome-search://most-visited/add_link.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 

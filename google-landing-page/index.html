@@ -31,55 +31,92 @@
     </div>
 </div>
 
-<div class="bookmarks">
-  <div class="row"></div>
-    <div class="col-md-4">
-      <div class="site" title="Gmail">
-          <a href="https://mail.google.com/mail/u/0/#inbox" aria-label="Gmail" title="Gmail" draggable="false">
-          <img class="md-icon" src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" width="21" height="21">
-          <p>Gmail</p>
+<div id="most-visited">
+    <div id="mv-tiles" style="width: 336px; opacity: 1;">
+      <div class="grid-tile-container" rid="1" add="false" index="0" style="transform: translate(0px, 0px);">
+      <div class="grid-tile" draggable="true">
+        <a class="md-tile mouse-navigation" data-rid="1" data-pos="0" href="https://mail.google.com/mail/u/0/#inbox" aria-label="Gmail" title="Gmail" draggable="false">
+          <div class="md-tile-inner">
+            <img class="md-icon" title alt src="chrome-search://ntpicon/?size=24%402x&url=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%23inbox">
+            <div class="md-title" style="direction: ltr;">
+                <span>Gmail</span>
+            </div>
+          </div>
+          <button class="md-menu md-edit-menu" title="Edit shortcut" aria-label="Edit shortcut Gmail">
+          </button>
+        </a>
+      </div>
+      </div>
+      <div class="grid-tile-container" rid="2" add="false" index="1" style="transform: translate(112px, 0px);">
+        <div class="grid-tile" draggable="true">
+          <a class="md-tile" data-rid="2" data-pos="1" href="https://www.facebook.com/" aria-label="Facebook" title="Facebook" draggable="false">
+          <div class="md-tile-inner">
+            <img class="md-icon" title alt src="chrome-search://ntpicon/?size=24%402x&url=https%3A%2F%2Fwww.facebook.com%2F"><div class="md-title" style="direction: ltr;">
+            <span>Facebook</span>
+          </div>
+          </div>
+          <button class="md-menu md-edit-menu" title="Edit shortcut" aria-label="Edit shortcut Facebook">
+          </button>
           </a>
+        </div>
       </div>
+      <div class="grid-tile-container" rid="3" add="false" index="2" style="transform: translate(224px, 0px);">
+        <div class="grid-tile" draggable="true">
+          <a class="md-tile" data-rid="3" data-pos="2" href="https://www.youtube.com/" aria-label="Youtube" title="Youtube" draggable="false">
+          <div class="md-tile-inner">
+            <img class="md-icon" title alt src="chrome-search://ntpicon/?size=24%402x&amp;url=https%3A%2F%2Fwww.youtube.com%2F">
+          <div class="md-title" style="direction: ltr;">
+          <span>Youtube</span>
+          </div>
+          </div>
+          <button class="md-menu md-edit-menu" title="Edit shortcut" aria-label="Edit shortcut Youtube">
+          </button>
+          </a>
+        </div>
+      </div>
+      <div class="grid-tile-container" rid="4" add="false" index="3" style="transform: translate(0px, 128px);">
+          <div class="grid-tile" draggable="true">
+          <a class="md-tile" data-rid="4" data-pos="3" href="https://www.linkedin.com/" aria-label="LinkedIn" title="LinkedIn" draggable="false">
+          <div class="md-tile-inner">
+          <img class="md-icon" title alt src="chrome-search://ntpicon/?size=24%402x&amp;url=https%3A%2F%2Fwww.linkedin.com%2F"><div class="md-title" style="direction: ltr;">
+          <span>LinkedIn</span>
+          </div>
+          </div>
+          <button class="md-menu md-edit-menu" title="Edit shortcut" aria-label="Edit shortcut LinkedIn">
+          </button>
+          </a>
+          </div>
+      </div> 
+          <div class="grid-tile-container" rid="5" add="false" index="4" style="transform: translate(112px, 128px);">
+              <div class="grid-tile" draggable="true">
+              <a class="md-tile" data-rid="5" data-pos="4" href="https://www.instagram.com/accounts/login/" aria-label="Instagram" title="Instagram" draggable="false">
+              <div class="md-tile-inner">
+              <img class="md-icon" title alt src="chrome-search://ntpicon/?size=24%402x&amp;url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Flogin%2F">
+              <div class="md-title" style="direction: ltr;">
+              <span>Instagram</span>
+              </div>
+              </div>
+              <button class="md-menu md-edit-menu" title="Edit shortcut" aria-label="Edit shortcut Instagram">
+              </button>
+              </a>
+              </div>
+          </div>
+      <div class="grid-tile-container" rid="-1" add="true" style="transform: translate(224px, 128px);">
+              <div class="grid-tile">
+              <a class="md-tile" data-rid="-1" data-pos="5" aria-label="Add shortcut" title="Add shortcut" tabindex="0">
+              <div class="md-tile-inner">
+              <div class="md-icon md-add-icon">
+              </div>
+              <div class="md-title" style="direction: ltr;">
+              <span>Add shortcut</span>
+              </div>
+              </div>
+              </a>
+              </div>
+        </div>   
     </div>
-    <div class="col-md-4">
-        <div class="site" title="Facebook">
-            <a class="md-tile mouse-navigation" data-rid="1" data-pos="0" href="https://www.facebook.com/" aria-label="Facebook" title="Facebook" draggable="false">
-            <img class="md-icon" src="https://image.flaticon.com/icons/svg/124/124010.svg" width="23" height="23">
-            <p>Facebook</p>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="site" title="Youtube">
-            <a class="md-tile mouse-navigation" data-rid="1" data-pos="0" href="https://www.youtube.com/" aria-label="Youtube" title="Youtube" draggable="false">
-            <img class="md-icon" src="https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png" width="29" height="30">
-            <p>Youtube</p>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="site" title="LinkedIn">
-            <a class="md-tile mouse-navigation" data-rid="1" data-pos="0" href="https://www.youtube.com/" aria-label="LinkedIn" title="LinkedIn" draggable="false">
-            <img class="md-icon" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="22" height="22">
-            <p>LinkedIn</p>
-            </a>
-        </div>
-      </div>
-    <div class="col-md-4">
-        <div class="site" title="Instagram">
-            <a class="md-tile mouse-navigation" data-rid="1" data-pos="0" href="https://www.youtube.com/" aria-label="Instagram" title="Instagram" draggable="false">
-            <img class="md-icon" src="https://i.pinimg.com/originals/a2/5f/4f/a25f4f58938bbe61357ebca42d23866f.png" width="26" height="26">
-            <p>Instagram</p>
-            </a>
-        </div>
-      </div>
-    <div class="col-md-4">
-        <div class="site" title="Add Shortcut">
-        <i class="fa fa-plus"></i>
-            <p>Add Shortcut</p>
-        </div>
-      </div>
-</div>
+  </div>
+  
 
 
 <div id="edit-bg" tabindex="0" role="button" class="ep-enhanced" aria-label="Customize this page" title="Customize this page">
